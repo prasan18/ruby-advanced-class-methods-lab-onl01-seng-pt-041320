@@ -13,3 +13,4 @@ class Song
 end
 song = Song.create
 Song.all.include?(song) #=> true
+
